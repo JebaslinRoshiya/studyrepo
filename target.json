@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T11:38:15.396Z",
+        "line": 17,
+        "name": "Add to cart",
+        "description": "",
+        "id": "add-to-cart-validation;add-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14399388500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the TestMe app Homepage",
+            "match": {
+              "location": "stu4.open_the_TestMe_app_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4795772600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the SignIn",
+            "match": {
+              "location": "stu4.click_the_SignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190272600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the username \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stu4.user_enters_the_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130936200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stu4.user_enters_the_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 562829100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks login",
+            "match": {
+              "location": "stu4.user_clicks_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81673700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search \"head\" in the find details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stu4.search_in_the_find_details(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1040959000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click find Details",
+            "match": {
+              "location": "stu4.click_find_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661830500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the Add to Cart icon",
+            "match": {
+              "location": "stu4.click_the_Add_to_Cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart validation",
+    "description": "",
+    "id": "add-to-cart-validation",
+    "keyword": "Feature",
+    "uri": "classpath:study4/cart.feature",
+    "tags": []
+  }
+]
